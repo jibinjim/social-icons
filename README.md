@@ -6,9 +6,10 @@
 ## Other icons
 
 Nice icon sets with individual SVG files:
+- [Iconic](https://useiconic.com/)
 - [Evil Icons](https://github.com/outpunk/evil-icons)
 - [Ionicons](https://github.com/driftyco/ionicons)
-- [Iconic](https://useiconic.com/)
+- [ZURB Foundation Social Icons](https://github.com/adamfairhead/webicons)
 
 ## CSS styling
 
