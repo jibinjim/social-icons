@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body { background-color: #cbd2d6 }
+
+      .icon { width: 20px; height: 20px }
+
+      .icon .foreground, .icon .background { transition: fill .2s }
+
+      .icon-twitter .foreground { fill: grey }
+      .icon-twitter:hover .foreground { fill: #2aa9e0 }
+
+      .icon-facebook .background { fill: grey }
+      .icon-facebook .foreground { fill: transparent }
+      .icon-facebook:hover .background { fill: #3b5999 }
+      .icon-facebook:hover .foreground { fill: white }
+
+      .icon-googleplus .background { fill: grey }
+      .icon-googleplus .foreground { fill: transparent }
+      .icon-googleplus:hover .background { fill: #dd4b39 }
+      .icon-googleplus:hover .foreground { fill: white }
+
+      .icon-rss .background { fill: grey }
+      .icon-rss .foreground { fill: transparent }
+      .icon-rss:hover .background { fill: #f28c36 }
+      .icon-rss:hover .foreground { fill: white }
+    </style>
+  </head>
+  <body>
+    <img src="Twitter.svg">
+    <img src="Facebook.svg">
+    <img src="Google+.svg">
+    <img src="RSS.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      // See How to change color of SVG image using CSS (jQuery SVG image replacement) http://stackoverflow.com/questions/11978995
+      // See Replace all SVG images with inline SVG https://snippetlib.com/jquery/replace_all_svg_images_with_inline_svg
+      $('img').each(function() {
+        var $img = $(this);
+        var imgURL = $img.attr('src');
+
+        $.get(imgURL, function(data) {
+          // Get the SVG tag, ignore the rest
+          var $svg = $(data).find('svg');
+          // Replace image with new SVG
+          $img.replaceWith($svg);
+        });
+      });
+    </script>
+  </body>
+</html>
