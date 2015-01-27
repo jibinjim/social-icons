@@ -1,8 +1,7 @@
-# Social SVG icons
+# SVG social icons with CSS styling
 
-With CSS styling.
-
-Open index.html using Firefox, [the only browser to allow Cross Origin Requests with file://](http://stackoverflow.com/a/20578692/990356)
+- Online demo: http://plnkr.co/edit/Fdf0mx?p=preview
+- file:// demo: open index.html using Firefox, [the only browser to allow Cross Origin Requests with file://](http://stackoverflow.com/a/20578692/990356)
 
 ## Other icons
 
