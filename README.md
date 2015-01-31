@@ -6,10 +6,11 @@
 ## Other icons
 
 Nice icon sets with individual SVG files:
-- [Iconic](https://useiconic.com/), viewport: 128x128, generator: Adobe Illustrator
-- [Evil Icons](https://github.com/outpunk/evil-icons), viewport: 50x50
-- [Ionicons](https://github.com/driftyco/ionicons), viewport: 512x512, generator: Adobe Illustrator
-- [ZURB Foundation Social Icons](https://github.com/adamfairhead/webicons), viewport: 48x48
+- [Iconic](https://useiconic.com/), viewBox: 128x128, generator: Adobe Illustrator
+- [Evil Icons](https://github.com/outpunk/evil-icons), viewBox: 50x50
+- [Ionicons](https://github.com/driftyco/ionicons), viewBox: 512x512, generator: Adobe Illustrator
+- [ZURB Foundation Social Icons](https://github.com/adamfairhead/webicons), viewBox: 48x48
+- [IcoMoon-Free](https://github.com/Keyamoon/IcoMoon-Free), viewBox: 64x64
 
 ## CSS styling
 
