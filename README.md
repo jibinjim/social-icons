@@ -1,6 +1,7 @@
 # SVG social icons with CSS styling
 
 - Online demo: http://plnkr.co/edit/Fdf0mx?p=preview
+- Used by https://osteo15.com/
 - file:// demo: open index.html using Firefox, [the only browser to allow cross-origin requests with file:// OOTB](http://stackoverflow.com/a/20578692/990356)
 
 ## Other icons
